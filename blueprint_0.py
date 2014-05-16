@@ -6,4 +6,4 @@ blueprint = Blueprint('blueprint_0', __name__,
 
 @blueprint.route('/')
 def show():
-    return render_template('index.html')
+    return render_template('bp.html')
